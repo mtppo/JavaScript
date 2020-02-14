@@ -16,3 +16,24 @@ console.log(`Bem-vindo, ${nome}`);
 
 const n1 = 1, n2 = 2;
 console.log(`${n1} + ${n2} = ${n1 + n2}`);
+
+// Exibir resultado por linhas utilizando crase '`'
+console.log(`
+    exibindo
+    uma
+    palavra
+    por
+    linha
+`);
+
+// utilizando em modal
+const div =
+`
+    <div>
+        <p>Exemplo do uso em elemento HTML</p>
+    </div>
+`
+console.log(div);
+
+// Template strings marcado
+
