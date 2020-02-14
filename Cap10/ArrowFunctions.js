@@ -14,3 +14,5 @@ var boasVindas = nome => {
 
 boasVindas("Marcio");
 
+// Fazer outros exemplos para utilização de função com fat arrow
+// (finalidade de fazer funções mais enxutas)
