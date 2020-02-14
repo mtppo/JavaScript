@@ -62,3 +62,17 @@ function imprimirNome(nome){
 
 // na declaração de uma variavel let ou const, 
 // é atribuido um TDZ (Temporal Dead Zone)
+let valor = 0;
+
+if(true)
+{
+    //console.log(valor);
+
+    let valor;
+    console.log(valor);
+
+    valor = 1;
+    console.log(valor);
+}
+
+console.log(valor);
