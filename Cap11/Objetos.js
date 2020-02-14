@@ -44,4 +44,4 @@ const objeto = {
     }
 }
 
-objeto.nomeMetodo()
+
