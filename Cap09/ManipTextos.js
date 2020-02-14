@@ -37,3 +37,7 @@ console.log(div);
 
 // Template strings marcado
 
+const horas = new Date().getHours();
+const mensagem2 = `Boa tarde! são: ${horas}`;
+console.log(mensagem2);
+
